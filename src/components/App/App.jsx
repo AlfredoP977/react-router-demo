@@ -3,6 +3,9 @@ import Header from "../Header/Header";
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "../Dashboard/Dashboard"; // New import
 
+import Reviews from "../Reviews/Reviews";
+import AboutMe from "../AboutMe/AboutMe";
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +14,8 @@ function App() {
           and specify the path and element attributes as shown. */}
       <Routes>
         <Route path="/" element={<Dashboard />} />
+        <Route path="/reviews" element={<Reviews />} />
+        <Route path="/about-me" element={<AboutMe />} />
       </Routes>
     </div>
   );
