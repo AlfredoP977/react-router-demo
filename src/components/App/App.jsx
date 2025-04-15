@@ -5,6 +5,7 @@ import Dashboard from "../Dashboard/Dashboard"; // New import
 
 import Reviews from "../Reviews/Reviews";
 import AboutMe from "../AboutMe/AboutMe";
+import AboutUs from "../AboutUs/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/reviews" element={<Reviews />} />
+        <Route path="/about-me" element={<AboutMe />} />
         <Route path="/about-me" element={<AboutMe />} />
       </Routes>
     </div>
